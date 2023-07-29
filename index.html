@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carolina Labra</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" src="style.css">
+</head>
+
+<body class="container-fluid">
+  <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+      <svg class="bi me-2" width="40" height="32">
+        <use xlink:href="#bootstrap"></use>
+      </svg>
+      <span class="fs-4">Mi Perfil</span>
+    </a>
+
+    <ul class="nav nav-pills">
+      <li class="nav-item"><a href="#perfil" class="nav-link active"aria-current="page">Perfil</a></li>
+      <li class="nav-item"><a href="#secciones" class="nav-link link-danger link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Secciones</a></li>
+      <li class="nav-item"><a href="#proyectos" class="nav-link link-danger link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Proyectos</a></li>
+      <li class="nav-item"><a href="#contacto" class="nav-link link-danger link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Contacto</a></li>
+    </ul>
+
+  </header>
+  <!--Perfil Obligatorio-->
+  <section id="perfil" class="container my-5">
+    <div class="px-4 py-5 my-5 text-center">
+      <img id="img-perfil" class="img-thumbnail rounded-circle" src="images/yo.png" alt="Foto de perfil" width="150"
+        height="150">
+      <h1 class="display-5 fw-bold text-body-emphasis">Carolina Labra</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">Negociadora | Estudiante | Aficionada a la programación </p>
+      </div>
+    </div>
+  </section>
+  <!--Secciones de mi página-->
+  <section id="secciones" class="container marketing">
+    <div class="row text-center">
+      <div class="col-lg-4 ">
+        <div class="text-center">
+          <img width="140" height="140" src="images/customs.avif" class="bd-placeholder-img rounded-circle"
+            alt="Aduana">
+        </div>
+        <h2 class="fw-normal">Estudiante</h2>
+        <p>Licenciada en Negocios Internacionales Bilingüe.</p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img width="140" height="140" src="images/html.avif" class="bd-placeholder-img rounded-circle"
+            alt="HTML">
+        <h2 class="fw-normal">Programación</h2>
+        <p>Aficionada de la construcción de lenguajes de progrmación, diseño y manejo de páginas web 
+        </p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img width="140" height="140" src="images/idiomas.avif" class="bd-placeholder-img rounded-circle"
+            alt="Idiomas">
+        <h2 class="fw-normal">Idiomas</h2>
+        <p> Fascinación  y facilidad para aprender  idiomas</p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+  </section>
+  <!--Proyectos Obligatorio-->
+  <section id="proyectos" class="container my-5">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light text-center  "> MIS PROYECTOS</h1>
+        <p class="lead text-body-secondary">Un vistazo por todo mi camino recorrido en cursos y certificaciones.</p>
+      </div>
+    </div>
+    <div class="album py-5 bg-body-tertiary">
+      <div class="container">
+  
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+          <img src="images/html.jpg" alt="html">
+              <div class="card-body text-center">
+                <h2>Summer Boot Camp 2023</h2>
+                <p class="card-text">Habilidades en el uso de los lenguajes de programación HTML, CSS y Javascript.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm text-center">
+              <img src="images/espacio.jpg" alt="espacio">
+              <div class="card-body">
+                <h2>Semana Mundial del Espacio</h2>
+                <p class="card-text">Curso sobre la importancia de la ciencia y las estgrellas por la Sociedad de Xalapa.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm text-center">
+              <img src="images/ingles.jpg" alt="ingles">
+              <div class="card-body">
+                <h2>Idiomas</h2>
+                <p class="card-text">Cursos certificados de idiomas como son Inglés, Aléman y Chino Mandarín.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+  </section>
+  <!--Contacto Obligatorio-->
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Yo</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Secciones</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Proyectos</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Preguntas</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Sobre que</a></li>
+    </ul>
+    <p class="text-center text-body-secondary"> Carolina Labra 2023 </p>
+  </footer>
+</body>
+
+</html>
